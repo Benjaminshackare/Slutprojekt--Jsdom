@@ -1,0 +1,35 @@
+#Knapp-div{
+    /* Det här är styling för backgrundsfärg, plats och storlek */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    margin: auto;
+    overflow: hidden;
+    background-color: green;
+    align-items: center;
+    height: 55%;
+    width: 60%;
+    
+}
+
+.Knappar{
+    /* Styling för knapparna. Procent används för att göra sidan responsiv */
+    margin-left: 21%;
+    border-radius: 9px;
+    word-wrap: break-word;
+    box-sizing: content-box;
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 6% 4%;
+    margin: 0.5dvi;
+    height: 25%;
+    width: 64%;
+    
+}
+
+/*Den här ska göra så att din mus blir blå när du lägger den över knapparna men det kommer senare*/
+.allbuttons:hover{
+    background-color: blue;
+}   

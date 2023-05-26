@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Slutprojekt_Css.css">
+    <script src="Slutprojekt.js"></script>
+    <title>Slutprojekt</title>
+</head>
+<body>
+
+    <!-- Här är en header som kommer att visa mitt meddelande när man klickar på knappen.-->
+
+    <h1>Slutprojekt</h1>
+
+    <br>
+    <h1><div id="message"></div></h1>
+
+    <!-- Den här diven kommer att visa tiden när man trycker på knappen -->
+    <div id="tid"></div>
+    <br>
+    <div id="pic">
+
+        <!-- Här har jag min bild som är uppe i vänstra hörnet med lite styling för storlek -->
+
+        <img src="Explosion.jpeg" height="18%" width="15%" id="idPic">
+
+    </div>
+
+    <!-- Här är en div som har id: Knapp-div, den har styling för backgrundsrutan -->
+    
+    <div id="Knapp-div">
+
+        <!-- Här har vi alla knappar med samma div då de ska se likadana ut -->
+        
+        <div class="allbuttons:hover">
+
+            <button class="Knappar" onclick="change_bg()">Change Bg</button>
+
+            <button class="Knappar" onclick="message()">Good vibes</button>
+
+            <button class="Knappar" onclick="datum()">Time</button>
+
+        </div>
+
+        <div>
+            <button class="Knappar" id="pic" onclick="change_picture()">Change Picture</button>
+
+            <button class="Knappar" onclick="hidePic()">Hide picture</button>
+
+            <button class="Knappar" onclick="showPic()">Show picture</button>
+
+        </div>
+
+        <div>
+            <button class="Knappar">Header</button>
+
+            <button class="Knappar">Remove header</button>
+
+            <button class="Knappar">Show header</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
